@@ -1,0 +1,11 @@
+{
+  "name": "bsirelay",
+  "version": "1.0.0",
+  "description": "BSI frontend delivery, memory, and workflow framework for AI coding agents",
+  "author": {
+    "name": "iza-aa",
+    "url": "https://github.com/iza-aa"
+  },
+  "repository": "https://github.com/iza-aa/bsirelay",
+  "skills": "./skills"
+}

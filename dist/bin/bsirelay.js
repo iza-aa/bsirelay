@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cli_1 = require("../src/cli");
+(0, cli_1.main)().catch((err) => {
+    console.error('\n❌ BSI Relay Error:', err.message || err);
+    process.exit(1);
+});

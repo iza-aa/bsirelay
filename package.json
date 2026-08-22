@@ -1,0 +1,48 @@
+{
+  "name": "bsirelay",
+  "version": "1.2.0",
+  "description": "Agentic delivery, memory, and workflow framework for frontend engineering in BSI ecosystems",
+  "main": "dist/cli.js",
+  "bin": {
+    "bsirelay": "./bin/bsirelay.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "doctor": "node bin/bsirelay.js doctor",
+    "setup": "node bin/bsirelay.js setup",
+    "status": "node bin/bsirelay.js status",
+    "sync": "node bin/bsirelay.js sync",
+    "analyze": "python3 tools/figma_analyzer.py",
+    "distill": "python3 tools/distill_rules.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iza-aa/bsirelay.git"
+  },
+  "keywords": [
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "zcode",
+    "hermes",
+    "agentic-engineering",
+    "skills",
+    "bsi",
+    "angular",
+    "figma",
+    "devtools-mcp",
+    "typescript",
+    "python"
+  ],
+  "author": "iza-aa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iza-aa/bsirelay/issues"
+  },
+  "homepage": "https://github.com/iza-aa/bsirelay#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}

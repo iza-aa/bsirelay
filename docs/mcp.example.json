@@ -1,0 +1,13 @@
+{
+  "_comment": "Referensi konfigurasi MCP untuk inspeksi Figma (D4). Salin & sesuaikan ke lokasi konfigurasi MCP agent tool Anda (ZCode/Claude Code/Codex/Cursor berbeda lokasi — lihat .agents/README.md). chrome-devtools-mcp terverifikasi karakterisasi di v1.7.0.",
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
+    }
+  },
+  "modes": {
+    "fresh-launch": "Default — Chrome di-launch profil terpisah; login Figma sekali di profil tersebut.",
+    "attach": "Jalankan Chrome dengan --remote-debugging-port=9222 lalu tambahkan arg \"--browserUrl\", \"http://127.0.0.1:9222\" (reuses Chrome yang sudah login)."
+  }
+}

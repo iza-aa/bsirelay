@@ -1,0 +1,6 @@
+{
+  "_comment": "Template override per perangkat (Team Agent Framework v5.1). Salin file ini ke config.local.json (gitignored) lalu sesuaikan path absolut/relatif perangkat Anda. Nilai default sebenarnya dibaca dari team.json; file ini hanya skema referensi.",
+  "device": "nama-perangkat-anda",
+  "backend_repo": "../svc-ea-lumen",
+  "ui_library_repo": "../lib-uii-gateway-pilar-angular"
+}

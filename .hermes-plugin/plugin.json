@@ -1,0 +1,8 @@
+{
+  "name": "bsirelay",
+  "version": "1.2.0",
+  "description": "BSI frontend delivery framework for Hermes Agent",
+  "author": "iza-aa",
+  "entry": "skills/",
+  "hooks": "hooks/hooks.json"
+}

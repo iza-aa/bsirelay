@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "bsirelay",
+  "version": "1.1.0",
+  "description": "BSI frontend delivery, memory, and workflow framework for AI coding agents",
+  "author": "iza-aa",
+  "license": "MIT",
+  "homepage": "https://github.com/iza-aa/bsirelay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iza-aa/bsirelay.git"
+  },
+  "skills": [
+    "skills/setup",
+    "skills/brain",
+    "skills/config",
+    "skills/newtask",
+    "skills/update",
+    "skills/learn"
+  ]
+}

@@ -1,0 +1,12 @@
+# Personal layer — per-developer, never committed
+memory/
+config.local.json
+
+# Dependencies
+node_modules/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+pilar-docs/

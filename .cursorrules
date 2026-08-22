@@ -1,0 +1,5 @@
+# BSI Relay Rules for Cursor
+- Always read `.agents/teammemory.md` and respect `.agents/team.json` before proposing code changes.
+- Follow the skills in `.agents/skills/` (setup, brain, config, newtask, learn, update).
+- Always present a component mapping plan and wait for "go" before writing code files.
+- Misunderstandings and corrections must be recorded via `/learn`.

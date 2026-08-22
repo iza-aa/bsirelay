@@ -1,0 +1,15 @@
+{
+  "name": "bsirelay",
+  "version": "1.2.0",
+  "description": "BSI frontend delivery, memory, and workflow framework for Gemini CLI",
+  "author": "iza-aa",
+  "instructions": "GEMINI.md",
+  "skills": [
+    "skills/setup",
+    "skills/brain",
+    "skills/config",
+    "skills/newtask",
+    "skills/learn",
+    "skills/update"
+  ]
+}

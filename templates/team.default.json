@@ -1,0 +1,36 @@
+{
+  "team": "EA",
+  "frontend": {
+    "framework": "Angular 13",
+    "module_root": "projects/uiigateway/ea/src/lib/modules",
+    "services_file": "projects/uiigateway/ea/src/lib/services/ea.service.ts",
+    "routing_file": "projects/uiigateway/ea/src/lib/ea.routing.ts",
+    "module_file": "projects/uiigateway/ea/src/lib/ea.module.ts",
+    "styles_file": "projects/uiigateway/ea/src/assets/stylesheets/styles.scss",
+    "golden_feature": "projects/uiigateway/ea/src/lib/modules/ea-management/list-service-management/"
+  },
+  "backend": {
+    "framework": "Lumen",
+    "default_repo": "../svc-ea-lumen",
+    "access": "read-only",
+    "allowed_commands": ["git pull", "php artisan serve --port=8000"],
+    "route_prefix": "/v1/ea/",
+    "api_docs_folder": "docs/"
+  },
+  "ui_library": {
+    "name": "Pilar UI V2",
+    "default_repo": "../lib-uii-gateway-pilar-angular",
+    "docs_repo": "https://github.com/iza-aa/pilar-docs.git",
+    "access": "read-only",
+    "allowed_commands": ["git pull"],
+    "docs_folder": ".agents/pilar-docs/"
+  },
+  "gateway": {
+    "verify_before_integration": true
+  },
+  "conventions": {
+    "route_language": "english",
+    "charting": ["angular-highcharts", "highcharts"],
+    "notes": "Breadcrumb dirender oleh shell Gateway, bukan komponen modul."
+  }
+}

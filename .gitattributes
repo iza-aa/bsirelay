@@ -1,0 +1,7 @@
+# GitHub Linguist language configurations
+*.ts linguist-detectable=true
+*.py linguist-detectable=true
+*.sh linguist-detectable=true
+*.js linguist-detectable=true
+*.json linguist-documentation=false
+*.md linguist-documentation=true

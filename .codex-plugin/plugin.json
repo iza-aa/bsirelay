@@ -1,0 +1,15 @@
+{
+  "name": "bsirelay",
+  "version": "1.2.0",
+  "description": "BSI frontend delivery, memory, and workflow framework for Codex App & CLI",
+  "author": "iza-aa",
+  "entry": "skills/",
+  "skills": [
+    "skills/setup",
+    "skills/brain",
+    "skills/config",
+    "skills/newtask",
+    "skills/learn",
+    "skills/update"
+  ]
+}
